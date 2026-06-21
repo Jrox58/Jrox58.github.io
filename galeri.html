@@ -1,0 +1,152 @@
+﻿<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri | Akçaylar OSGB</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/1png.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="site.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">
+          <img src="images/1png.png" alt="Logo" class="logo-img u-style-001" />
+          Akçaylar<span class="u-style-002">OSGB</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#akcayMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="akcayMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link fw-bold px-3 text-dark" href="index.html">Ana Sayfa</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold px-3 text-dark" href="kurumsal.html">Kurumsal</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold px-3 text-dark" href="hizmetler.html">Hizmetler</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold px-3 text-dark" href="isg-rehberi.html">İSG Rehberi</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold px-3 text-dark" href="referans.html">Referanslar</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold px-3 text-danger" href="galeri.html">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold px-3 text-dark" href="iletisim.html">İletişim</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+        <section class="page-hero">
+      <div class="bg-text">GALERİ</div>
+      <div class="container">
+        <div class="hero-badge"><i class="fa-solid fa-camera me-1"></i> Medya</div>
+        <h1>Saha Çalışmalarımızdan<br>Görüntüler</h1>
+        <p>Aktif denetim ve eğitim faaliyetlerimizden fotoğraf ve video kayıtları.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section py-5">
+      <div class="container">
+        <div class="gallery-category mb-5">
+          <h3 class="mb-4">
+            <i class="fa-solid fa-camera text-danger me-2"></i> Fotoğraflar
+          </h3>
+          <div class="image-grid">
+            <div class="gallery-item">
+              <img src="images/galeri.jpeg" alt="Saha" />
+            </div>
+            <div class="gallery-item">
+              <img src="images/galeri2.jpeg" alt="Denetim" />
+            </div>
+            <div class="gallery-item">
+              <img src="images/galeri3.jpeg" alt="Eğitim" />
+            </div>
+            <div class="gallery-item">
+              <img src="images/galeri6.jpeg" alt="Eğitim" />
+            </div>
+            <div class="gallery-item">
+              <img src="images/galeri7.jpeg" alt="Eğitim" />
+            </div>
+            <div class="gallery-item">
+              <img src="images/galeri8.jpeg" alt="Eğitim" />
+            </div>
+            <div class="gallery-item">
+              <img src="images/galeri4.jpeg" alt="Eğitim" />
+            </div>
+            <div class="gallery-item">
+              <img src="images/galeri5.jpeg" alt="Eğitim" />
+            </div>
+          </div>
+        </div>
+
+        <hr class="separator my-5" />
+
+        <div class="gallery-category">
+          <h3 class="mb-4">
+            <i class="fa-solid fa-video text-danger me-2"></i> Videolar
+          </h3>
+          <div class="video-grid">
+            <div class="video-item">
+              <video controls class="rounded shadow-sm">
+                <source
+                  src="video/video1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              
+            </div>
+
+            <div class="video-item">
+              <video controls class="rounded shadow-sm">
+                <source
+                  src="video/video2.mp4"
+                  type="video/mp4"
+                />
+              </video>
+             
+            </div>
+             <div class="video-item">
+              <video controls class="rounded shadow-sm">
+                <source
+                  src="video/video3.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close-btn">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+
+    <div class="fixed-socials">
+      <a
+        href="https://www.instagram.com/akcaylar.osgb/"
+        class="social-float instagram"
+        target="_blank"
+        title="Instagram'da Takip Et"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a
+        href="https://wa.me/905392101803"
+        class="social-float whatsapp"
+        target="_blank"
+        title="WhatsApp'tan Bize Ulaşın"
+      >
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>
